@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>MozTube Academy</title>
+
+  <link rel="stylesheet"
+        href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="app">
+
+    <!-- HOME -->
+
+    <section class="pagina ativa"
+             id="home">
+
+      <img
+        src="https://i.ibb.co/39XSBHnp/file-0000000013cc71fd8740e978d437b44e.png"
+        class="logo"
+      >
+
+      <h1>🎓 MozTube Academy</h1>
+
+      <!-- RELÓGIO -->
+
+      <div class="relogio-box">
+
+        <div class="relogio"
+             id="relogio">
+          00:00:00
+        </div>
+
+        <div class="data"
+             id="data">
+          Carregando...
+        </div>
+
+      </div>
+
+      <!-- PESQUISA GOOGLE -->
+
+      <form
+        action="https://www.google.com/search"
+        method="GET"
+        target="_blank"
+        class="search-box">
+
+        <input
+          type="text"
+          name="q"
+          placeholder="Pesquisar no Google..."
+          class="pesquisa">
+
+        <button
+          type="submit"
+          class="search-btn">
+
+          🔎 Pesquisar
+
+        </button>
+
+      </form>
+
+      <!-- CURSO HTML E CSS -->
+
+      <div class="video-card">
+
+        <iframe
+          src="https://www.youtube.com/embed/videoseries?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n"
+          allowfullscreen>
+        </iframe>
+
+        <h3>💻 HTML e CSS Completo</h3>
+
+      </div>
+
+    </section>
+
+    <!-- CURSOS -->
+
+    <section class="pagina"
+             id="programacao">
+
+      <h2>💻 Cursos de Programação</h2>
+
+      <!-- HTML CSS -->
+
+      <div class="video-card">
+
+        <iframe
+          src="https://www.youtube.com/embed/videoseries?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n"
+          allowfullscreen>
+        </iframe>
+
+        <h3>HTML e CSS — Curso em Vídeo</h3>
+
+      </div>
+
+      <!-- JAVASCRIPT -->
+
+      <div class="video-card">
+
+        <iframe
+          src="https://www.youtube.com/embed/videoseries?list=PLHz_AreHm4dlFPrCXCmd5g92860x_Pbr_"
+          allowfullscreen>
+        </iframe>
+
+        <h3>JavaScript Completo</h3>
+
+      </div>
+
+      <!-- PYTHON -->
+
+      <div class="video-card">
+
+        <iframe
+          src="https://www.youtube.com/embed/videoseries?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6"
+          allowfullscreen>
+        </iframe>
+
+        <h3>Python Completo</h3>
+
+      </div>
+
+      <!-- GIT -->
+
+      <div class="video-card">
+
+        <iframe
+          src="https://www.youtube.com/embed/videoseries?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA"
+          allowfullscreen>
+        </iframe>
+
+        <h3>Git e GitHub</h3>
+
+      </div>
+
+    </section>
+
+    <!-- INGLÊS -->
+
+    <section class="pagina"
+             id="ingles">
+
+      <h2>🇺🇸 EnglishBay</h2>
+
+      <div class="video-card">
+
+        <iframe
+          src="https://www.youtube.com/embed/qz0aGYrrlhU"
+          allowfullscreen>
+        </iframe>
+
+        <h3>English Lesson</h3>
+
+      </div>
+
+    </section>
+
+    <!-- LINKS -->
+
+    <section class="pagina"
+             id="links">
+
+      <h2>🌐 Links Oficiais</h2>
+
+      <a
+        href="https://wa.me/258840676950"
+        target="_blank"
+        class="btn whatsapp">
+
+        📱 WhatsApp
+
+      </a>
+
+      <a
+        href="https://www.facebook.com/profile.php?id=61590003268888"
+        target="_blank"
+        class="btn facebook">
+
+        📘 Facebook Oficial
+
+      </a>
+
+      <a
+        href="https://t.me/Mozlinkpro1"
+        target="_blank"
+        class="btn telegram">
+
+        ✈️ Telegram Oficial
+
+      </a>
+
+    </section>
+
+    <!-- PERFIL -->
+
+    <section class="pagina"
+             id="perfil">
+
+      <h2>👤 Perfil</h2>
+
+      <p>
+        Plataforma criada por
+        <strong>Pedro Francisco</strong>
+      </p>
+
+      <p>
+        MozTube Academy é um projeto focado
+        em educação, programação,
+        inglês e tecnologia.
+      </p>
+
+    </section>
+
+  </div>
+
+  <!-- MENU INFERIOR -->
+
+  <nav class="bottom-bar">
+
+    <button onclick="trocarPagina('home')">
+      🏠
+      <span>Home</span>
+    </button>
+
+    <button onclick="trocarPagina('programacao')">
+      💻
+      <span>Cursos</span>
+    </button>
+
+    <button onclick="trocarPagina('ingles')">
+      🇺🇸
+      <span>English</span>
+    </button>
+
+    <button onclick="trocarPagina('links')">
+      🌐
+      <span>Links</span>
+    </button>
+
+    <button onclick="trocarPagina('perfil')">
+      👤
+      <span>Perfil</span>
+    </button>
+
+  </nav>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    © 2026 MozTube Academy
+    <br>
+
+    Todos os direitos reservados.
+
+    <br><br>
+
+    Criado por
+    <strong>Pedro Francisco</strong>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
